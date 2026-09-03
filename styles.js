@@ -140,7 +140,7 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
-// Поддержка свайпу на мобільних
+// Підтримка проведення на мобільних пристроях
 let touchStartX = 0;
 let touchEndX = 0;
 
@@ -159,10 +159,10 @@ function handleSwipe() {
     
     if (Math.abs(diff) > threshold) {
         if (diff > 0) {
-            // Свайп ліворуч = далі
+            // Проведення ліворуч = далі
             changeSlide(1);
         } else {
-            // Свайп праворуч = назад
+            // Проведення праворуч = назад
             changeSlide(-1);
         }
     }
