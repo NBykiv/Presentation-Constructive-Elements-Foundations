@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Навігація з клавіатури
     document.addEventListener('keydown', handleKeyPress);
     
-    // Навігація з гендлерів миші
+    // Обробка кліків мишею
     document.addEventListener('click', handleClick);
 });
 
@@ -140,7 +140,7 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
-// Поддержка свайпу на мобільних
+// Підтримка свайпу на мобільних пристроях
 let touchStartX = 0;
 let touchEndX = 0;
 
