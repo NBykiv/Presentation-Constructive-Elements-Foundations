@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Навігація з клавіатури
     document.addEventListener('keydown', handleKeyPress);
     
-    // Навігація з гендлерів миші
+    // Обробка кліків мишею
     document.addEventListener('click', handleClick);
 });
 
